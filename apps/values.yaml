@@ -1,0 +1,6 @@
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+  source:
+    repoURL: https://github.com/ppodevlabs/argocd-app-of-apps.git
+    targetRevision: main
