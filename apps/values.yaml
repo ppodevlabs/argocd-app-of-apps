@@ -1,6 +1,6 @@
 spec:
   destination:
-    server: https://kubernetes.default.svc
+    name: test-incluster
   source:
     repoURL: https://github.com/ppodevlabs/argocd-app-of-apps.git
     targetRevision: main
